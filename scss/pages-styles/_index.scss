@@ -1,0 +1,58 @@
+body {
+    @extend %my-container;
+    background-color: lightgray;
+
+    .index-header {
+        @include goFlex(row, space-between, center);
+        padding: 0 30px;}
+
+        ul {
+            width: 400px;
+            @include goFlex(row, space-between, center);
+            padding: 5px 0;}
+
+            li {
+                color: $primaryColor;
+                font-size: $primaryFontSize;
+                
+            }
+            h1{
+                color: $primaryColor;
+                font-size: secondaryFontSize;
+                width: 120px;
+                margin-top: 30px;
+            }
+            .flex-conteiner{
+            @include goFlex(row, space-between, center);
+            }
+          
+            p{
+                width: 280px;
+                height: 100px;
+                color: $secondaryColor;
+                font-size: $primaryFontSize;
+                align-content: center;
+                margin-left: 10px;
+            }
+            h3{
+                color: $secondaryColor;
+                font-size: $primaryFontSize;  
+                margin-left: 120px;
+                height: 20px;
+                margin-bottom: 10px;
+            }
+           .conteiner{
+            background-color: white;
+            border-radius: 5%;
+            border-width: 362px;
+            
+           }
+           .pic{
+          margin-left: -70px;
+           }
+           .pic,h3{
+            display: inline-block;
+           }
+        }
+
+    
