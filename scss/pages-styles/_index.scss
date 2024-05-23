@@ -90,9 +90,10 @@ body {
          .border{
             @include goFlex(row) ;
             background-color: #243043;
-            width: 1440px;
+            width: 1350px;
             height: 201px;
             align-items: center;
+            margin-top: 30px;
          }
            h2{
             color: $secondaryColor;
