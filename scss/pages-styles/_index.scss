@@ -29,7 +29,13 @@ body {
             @include goFlex(row, space-between, center);
             margin-top: -10px;
             }
-          
+            
+            h4{
+                color: white;
+                font-size: 20px;
+               
+            }
+            
             p{
                 width: 280px;
                 height: 100px;
@@ -47,7 +53,7 @@ body {
             }
            .conteiner{
             background-color: white;
-            border-radius: 5%;
+            border-radius: 2%;
             border-width: 362px;
             margin-top: 30px;
             
@@ -60,21 +66,49 @@ body {
           }
           .flex-conteiner1{
             @include goFlex(row) ;
+
           }
            .cont-left{
             @include goFlex ;
+            
+        
            }
            .pic2{
             border-radius: 5%;
             margin-top: 40px;
+         
            }
            .cont-right{
             @include goFlex(column) ;
-            width: 250px;
+        padding-left: 800px;
+        margin-top: -970px;
            }
            .pic3{
-            margin-top: 25px;
+            margin-top: 100px;
 
+           }
+         .border{
+            @include goFlex(row) ;
+            background-color: #243043;
+            width: 1440px;
+            height: 201px;
+            align-items: center;
+         }
+           h2{
+            color: $secondaryColor;
+            font-size: $primaryFontSize;  
+            width: 33px;
+             height: 14px;
+             margin-right: 100px;
+             margin-bottom: 20px;
+             margin-left: 50px;
+             margin-top: 10px;
+             
+           }
+           .h11{
+            color: aliceblue;
+            font-size: $primaryFontSize;  
+            width: 700px;
            }
         }
 
