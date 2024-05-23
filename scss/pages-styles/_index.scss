@@ -17,15 +17,17 @@ body {
                 
             }
             h1{
+                padding-bottom: 50px;
                 color: $primaryColor;
-                font-size: secondaryFontSize;
+                
                 width: 120px;
                 margin-top: 30px;
-                padding-bottom: 50px;
+               
                 
             }
             .flex-conteiner{
             @include goFlex(row, space-between, center);
+            margin-top: -10px;
             }
           
             p{
@@ -55,7 +57,26 @@ body {
            }
            .pic,h3{
             display: inline-block;
+          }
+          .flex-conteiner1{
+            @include goFlex(row) ;
+          }
+           .cont-left{
+            @include goFlex ;
+           }
+           .pic2{
+            border-radius: 5%;
+            margin-top: 40px;
+           }
+           .cont-right{
+            @include goFlex(column) ;
+            width: 250px;
+           }
+           .pic3{
+            margin-top: 25px;
+
            }
         }
+
 
     

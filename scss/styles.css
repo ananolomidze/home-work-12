@@ -83,8 +83,8 @@ body li {
   font-size: 14px;
 }
 body h1 {
+  padding-bottom: 50px;
   color: black;
-  font-size: secondaryFontSize;
   width: 120px;
   margin-top: 30px;
 }
@@ -94,6 +94,7 @@ body .flex-conteiner {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: -10px;
 }
 body p {
   width: 280px;
@@ -114,10 +115,40 @@ body .conteiner {
   background-color: white;
   border-radius: 5%;
   border-width: 362px;
+  margin-top: 30px;
 }
 body .pic {
   margin-left: -70px;
 }
 body .pic, body h3 {
   display: inline-block;
+}
+body .flex-conteiner1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+body .cont-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+body .pic2 {
+  border-radius: 5%;
+  margin-top: 40px;
+}
+body .cont-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 250px;
+}
+body .pic3 {
+  margin-top: 25px;
 }/*# sourceMappingURL=styles.css.map */
